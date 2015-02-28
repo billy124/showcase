@@ -45,6 +45,7 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/camera.ctrl.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/contacts.ctrl.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/controllers.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/geolocation.ctrl.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/lib/angular \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/lib/angular-animate \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/lib/angular-sanitize \

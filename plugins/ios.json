@@ -39,6 +39,10 @@
                         {
                             "xml": "<feature name=\"Contacts\"><param name=\"ios-package\" value=\"CDVContacts\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Geolocation\"><param name=\"ios-package\" value=\"CDVLocation\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -54,7 +58,7 @@
                     "CoreLocation.framework": [
                         {
                             "xml": "false",
-                            "count": 2
+                            "count": 3
                         }
                     ],
                     "ImageIO.framework": [
@@ -100,7 +104,7 @@
                     "NSLocationWhenInUseUsageDescription": [
                         {
                             "xml": "<string />",
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 }
@@ -127,6 +131,9 @@
             "PACKAGE_NAME": "com.ionicframework.showcase932314"
         },
         "org.apache.cordova.contacts": {
+            "PACKAGE_NAME": "com.ionicframework.showcase932314"
+        },
+        "org.apache.cordova.geolocation": {
             "PACKAGE_NAME": "com.ionicframework.showcase932314"
         }
     },

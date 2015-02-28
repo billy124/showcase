@@ -11,7 +11,8 @@ angular.module('starter',
                 'starter.controllers',
                 'starter.accelerometer.ctrl',
                 'starter.camera.ctrl',
-                'starter.contacts.ctrl'
+                'starter.contacts.ctrl',
+                'starter.geolocation.ctrl',
                ]
             )
 
@@ -134,7 +135,7 @@ angular.module('starter',
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/geolocation.html",
-                                
+                                controller: "GeolocationCtrl"
                             }
                         }
                     })

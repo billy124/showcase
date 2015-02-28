@@ -1,5 +1,5 @@
 angular.module('starter.camera.ctrl', [])
-
+        // cordova plugin add org.apache.cordova.camera
         .controller('CameraCtrl', function ($scope, $cordovaCamera) {
             document.addEventListener("deviceready", function () {
                 $scope.takePicture = function () {

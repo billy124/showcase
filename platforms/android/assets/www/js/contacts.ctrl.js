@@ -1,5 +1,5 @@
 angular.module('starter.contacts.ctrl', [])
-
+        // cordova plugin add org.apache.cordova.contacts
         .controller('ContactsCtrl', function ($scope, $log, $cordovaContacts) {
 
             $scope.pickContact = function () {
