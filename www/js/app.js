@@ -56,7 +56,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                             }
                         }
                     })
-
+                    
+                    .state('app.compass', {
+                        url: "/compass",
+                        views: {
+                            'menuContent': {
+                                templateUrl: "templates/compass.html",
+                                controller: 'PlaylistsCtrl'
+                            }
+                        }
+                    })
+                    
                     .state('app.connection', {
                         url: "/connection",
                         views: {
