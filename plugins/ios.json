@@ -35,6 +35,10 @@
                         {
                             "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Contacts\"><param name=\"ios-package\" value=\"CDVContacts\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -62,7 +66,7 @@
                     "CoreGraphics.framework": [
                         {
                             "xml": "false",
-                            "count": 2
+                            "count": 3
                         }
                     ],
                     "AssetsLibrary.framework": [
@@ -74,6 +78,18 @@
                     "MobileCoreServices.framework": [
                         {
                             "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "AddressBook.framework": [
+                        {
+                            "xml": "true",
+                            "count": 1
+                        }
+                    ],
+                    "AddressBookUI.framework": [
+                        {
+                            "xml": "true",
                             "count": 1
                         }
                     ]
@@ -108,6 +124,9 @@
             "PACKAGE_NAME": "com.ionicframework.showcase932314"
         },
         "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "com.ionicframework.showcase932314"
+        },
+        "org.apache.cordova.contacts": {
             "PACKAGE_NAME": "com.ionicframework.showcase932314"
         }
     },

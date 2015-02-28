@@ -13,6 +13,15 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessor$WhereOptions.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessor.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessorSdk5.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactInfoDTO.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$1.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$2.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$3.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$4.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/devicemotion/AccelListener$1.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/devicemotion/AccelListener.class \

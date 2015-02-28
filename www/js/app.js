@@ -10,7 +10,8 @@ angular.module('starter',
                 'ngCordova',
                 'starter.controllers',
                 'starter.accelerometer.ctrl',
-                'starter.camera.ctrl'
+                'starter.camera.ctrl',
+                'starter.contacts.ctrl'
                ]
             )
 
@@ -93,7 +94,7 @@ angular.module('starter',
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/contacts.html",
-                                
+                                controller: "ContactsCtrl"
                             }
                         }
                     })
