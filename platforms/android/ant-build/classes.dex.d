@@ -27,4 +27,6 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/devicemotion/AccelListener.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/deviceorientation/CompassListener$1.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/deviceorientation/CompassListener.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager$1.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/dexedLibs/classes-5d072b0897fe5dcec8705e2aacbdb698.jar \

@@ -195,6 +195,21 @@ module.exports = [
         "clobbers": [
             "navigator.geolocation"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.network-information/www/network.js",
+        "id": "org.apache.cordova.network-information.network",
+        "clobbers": [
+            "navigator.connection",
+            "navigator.network.connection"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.network-information/www/Connection.js",
+        "id": "org.apache.cordova.network-information.Connection",
+        "clobbers": [
+            "Connection"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -207,7 +222,8 @@ module.exports.metadata =
     "org.apache.cordova.device-orientation": "0.3.11",
     "org.apache.cordova.camera": "0.3.5",
     "org.apache.cordova.contacts": "0.2.16",
-    "org.apache.cordova.geolocation": "0.3.12"
+    "org.apache.cordova.geolocation": "0.3.12",
+    "org.apache.cordova.network-information": "0.2.15"
 }
 // BOTTOM OF METADATA
 });

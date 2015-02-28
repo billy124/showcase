@@ -43,6 +43,7 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/accelerometer.ctrl.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/app.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/camera.ctrl.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/connection.ctrl.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/contacts.ctrl.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/controllers.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/geolocation.ctrl.js \
@@ -140,6 +141,7 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device-motion \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.network-information \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/com.ionic.keyboard/www \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
@@ -166,6 +168,9 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation/www/compass.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation/www/CompassError.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation/www/CompassHeading.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/Connection.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/network.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/templates/_old_list_file.html \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/templates/accelerometer.html \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/templates/camera.html \

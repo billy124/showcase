@@ -20,6 +20,9 @@
     <feature name="Contacts">
         <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
     </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
     <name>showcase</name>
     <description>
         Project showcase is developed to show all features of cordova using the framework ionic with cordova.

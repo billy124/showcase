@@ -13,6 +13,7 @@ angular.module('starter',
                 'starter.camera.ctrl',
                 'starter.contacts.ctrl',
                 'starter.geolocation.ctrl',
+                'starter.connection.ctrl',
                ]
             )
 
@@ -85,7 +86,7 @@ angular.module('starter',
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/connection.html",
-                                
+                                controller: "ConnectionCtrl"
                             }
                         }
                     })
