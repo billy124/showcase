@@ -8,12 +8,18 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Compass">
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
     <name>showcase</name>
     <description>
-        An Ionic Framework and Cordova project.
+        Project showcase is developed to show all features of cordova using the framework ionic with cordova.
     </description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+    <author email="billy124@msn.com" href="http://magmamedia.co.uk">
+      Billy Mahmood
     </author>
     <content src="index.html" />
     <access origin="*" />

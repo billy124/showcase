@@ -1,5 +1,34 @@
-<ion-view view-title="Accelerometer">
+<ion-view title="Accelerometer">
+
   <ion-content>
-    <h1>Accelerometer</h1>
+    <div class="card">
+      <div class="item item-divider">
+        Acceleration
+      </div>
+      <div class="item item-text-wrap" ng-show="msg">
+        {{msg}}
+      </div>
+        
+      <div class="item">
+        <strong>X</strong> &nbsp {{motion.x}}
+      </div>
+      <div class="item">
+        <strong>Y</strong> &nbsp {{motion.y}}
+      </div>
+
+      <div class="item">
+        <strong>Z</strong> &nbsp {{motion.z}}
+      </div>
+      <div class="item">
+        <strong>Time</strong> &nbsp {{motion.timestamp}}
+      </div>
+    </div>
+
+    <div class="padding">
+      <button class="button button-block button-positive" ng-click="getAcceleration()">
+        Get Device Motion
+      </button>
+    </div>
+
   </ion-content>
 </ion-view>

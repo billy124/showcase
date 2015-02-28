@@ -4,9 +4,17 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('starter', 
+               [
+                'ionic', 
+                'ngCordova',
+                'starter.controllers',
+                'starter.accelerometer.ctrl'
+               ]
+            )
 
         .run(function ($ionicPlatform) {
+            
             $ionicPlatform.ready(function () {
                 // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
                 // for form inputs)
@@ -22,19 +30,19 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
-
                     .state('app', {
                         url: "/app",
                         abstract: true,
                         templateUrl: "templates/menu.html",
                         controller: 'AppCtrl'
                     })
-
+                    
                     .state('app.accelerometer', {
                         url: "/accelerometer",
                         views: {
                             'menuContent': {
-                                templateUrl: "templates/accelerometer.html"
+                                templateUrl: "templates/accelerometer.html",
+                                controller: "AccelerometerCtrl"
                             }
                         }
                     })
@@ -47,22 +55,33 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                             }
                         }
                     })
+                    
                     .state('app.capture', {
                         url: "/capture",
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/capture.html",
-                                controller: 'PlaylistsCtrl'
+                                
                             }
                         }
                     })
-
+                    
+                    .state('app.compass', {
+                        url: "/compass",
+                        views: {
+                            'menuContent': {
+                                templateUrl: "templates/compass.html",
+                                
+                            }
+                        }
+                    })
+                    
                     .state('app.connection', {
                         url: "/connection",
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/connection.html",
-                                controller: 'PlaylistsCtrl'
+                                
                             }
                         }
                     })
@@ -72,7 +91,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/contacts.html",
-                                controller: 'PlaylistsCtrl'
+                                
                             }
                         }
                     })
@@ -82,7 +101,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/device.html",
-                                controller: 'PlaylistsCtrl'
+                                
                             }
                         }
                     })
@@ -92,7 +111,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/events.html",
-                                controller: 'PlaylistsCtrl'
+                                
                             }
                         }
                     })
@@ -102,7 +121,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/file.html",
-                                controller: 'PlaylistsCtrl'
+                               
                             }
                         }
                     })
@@ -112,7 +131,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/geolocation.html",
-                                controller: 'PlaylistsCtrl'
+                                
                             }
                         }
                     })
@@ -122,7 +141,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/media.html",
-                                controller: 'PlaylistsCtrl'
+                                
                             }
                         }
                     })
@@ -132,7 +151,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/notification.html",
-                                controller: 'PlaylistsCtrl'
+                               
                             }
                         }
                     })
@@ -142,7 +161,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                         views: {
                             'menuContent': {
                                 templateUrl: "templates/storage.html",
-                                controller: 'PlaylistsCtrl'
+                               
                             }
                         }
                     });
