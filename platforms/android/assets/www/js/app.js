@@ -9,7 +9,8 @@ angular.module('starter',
                 'ionic', 
                 'ngCordova',
                 'starter.controllers',
-                'starter.accelerometer.ctrl'
+                'starter.accelerometer.ctrl',
+                'starter.camera.ctrl'
                ]
             )
 
@@ -51,7 +52,8 @@ angular.module('starter',
                         url: "/camera",
                         views: {
                             'menuContent': {
-                                templateUrl: "templates/camera.html"
+                                templateUrl: "templates/camera.html",
+                                controller: "CameraCtrl"
                             }
                         }
                     })

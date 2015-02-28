@@ -10,6 +10,9 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/com/ionicframework/showcase932314/R$string.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/com/ionicframework/showcase932314/R$xml.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/com/ionicframework/showcase932314/R.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
+/Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/devicemotion/AccelListener$1.class \
 /Users/billymahmood/phonegap/showcase/platforms/android/ant-build/classes/org/apache/cordova/devicemotion/AccelListener.class \

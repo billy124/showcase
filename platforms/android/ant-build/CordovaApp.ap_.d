@@ -42,6 +42,7 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/img/ionic.png \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/accelerometer.ctrl.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/app.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/camera.ctrl.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/js/controllers.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/lib/angular \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/lib/angular-animate \
@@ -132,11 +133,17 @@
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/lib/ngCordova/dist/ng-cordova.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/lib/ngCordova/dist/ng-cordova.min.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/com.ionic.keyboard \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device-motion \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device-orientation \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/com.ionic.keyboard/www \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraPopoverHandle.js \
+/Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
 /Users/billymahmood/phonegap/showcase/platforms/android/assets/www/plugins/org.apache.cordova.device-motion/www \
